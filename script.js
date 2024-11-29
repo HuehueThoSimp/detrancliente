@@ -70,7 +70,7 @@ function addGerarPagamentoListener() {
         const encodedName = encodeURIComponent(nome);
         
         
-        const checkoutURL = `https://pay.consultahabilitacao.shop/KV603kPQyDdZw8y?name=${encodedName}&document=${cpf}`;
+        const checkoutURL = `https://google.com?name=${encodedName}&document=${cpf}`;
         
         window.location.href = checkoutURL;
       }
